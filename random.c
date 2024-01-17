@@ -4,7 +4,6 @@
 
 char randchar() {
 // uses the random function to print a random lowercase letter from the alphabet(26)
-    srand( (unsigned)time(NULL) );
     char letter_one = 'a' + (random() % 26);
 
 
