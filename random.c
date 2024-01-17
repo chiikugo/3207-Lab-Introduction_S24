@@ -4,7 +4,7 @@
 
 char randchar() {
 // uses the random function to print a random lowercase letter from the alphabet(26)
-    char letter_one = 'a' + (random() % 26);
+    char letter_one = 'a' + (rand() % 26);
 
 
     return letter_one;
